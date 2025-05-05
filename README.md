@@ -22,7 +22,7 @@ layered_architecture/
 ## 环境要求
 
 - Python 3.11 或以上
-- uv（非必需，但使用uv sync可以快速安装依赖）
+- uv（非必需，但使用 `uv sync` 可以快速安装依赖）
 
 ## 许可证
 
