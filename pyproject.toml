@@ -1,0 +1,12 @@
+[project]
+name = "zsxq-architecture-pattern"
+version = "0.1.0"
+description = "The code used in the Zhihu Planet to explain architecture patterns."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3.5",
+]

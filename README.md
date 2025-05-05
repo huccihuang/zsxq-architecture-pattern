@@ -1,2 +1,29 @@
-# zsxq-architecture-pattern
-知识星球架构模式使用的代码
+# 架构模式示例项目
+
+这个项目用于展示和对比不同的软件架构模式，帮助开发者理解各种架构模式的实现方式和应用场景。每个架构模式都通过一个相同的笔记应用来演示，方便进行横向对比。
+
+## 已实现的架构模式
+
+### 分层架构 (Layered Architecture)
+
+位于 `layered_architecture/` 目录，展示了经典的三层架构实现。
+
+```
+layered_architecture/
+├── src/              # 源代码
+│   ├── ui/          # 用户界面层
+│   ├── service/     # 业务逻辑层
+│   └── infra/       # 基础设施层
+└── tests/           # 测试代码
+```
+
+[查看分层架构具体说明](layered_architecture/README.md)
+
+## 环境要求
+
+- Python 3.11 或以上
+- uv（非必需，但使用uv sync可以快速安装依赖）
+
+## 许可证
+
+本项目使用 MIT 许可证 - 详见 [LICENSE](LICENSE) 文件
