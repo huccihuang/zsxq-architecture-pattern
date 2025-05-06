@@ -19,6 +19,29 @@ layered_architecture/
 
 [查看分层架构具体说明](layered_architecture/README.md)
 
+### 领域模型和仓储模式 (Domain Model and Repository Pattern)
+
+位于 `domain-and-repository-pattern/` 目录，展示了领域驱动设计中的领域模型和仓储模式实现。
+
+```
+domain-and-repository-pattern/
+├── src/              # 源代码
+│   ├── model.py     # 领域模型
+│   ├── repository.py # 仓储层
+│   ├── service.py   # 服务层
+│   ├── ui.py        # 用户界面层
+│   ├── db.py        # 数据库访问
+│   └── main.py      # 应用入口
+```
+
+这种架构模式的特点：
+- 领域模型包含业务规则和逻辑
+- 仓储模式封装数据访问细节
+- UI层使用内置类型而非领域模型，实现关注点分离
+- 服务层协调领域模型和仓储层
+
+[查看领域模型和仓储模式具体说明](domain-and-repository-pattern/README.md)
+
 ## 环境要求
 
 - Python 3.11 或以上
